@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 721949812f0fb6e4585f78592b69ff32
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Contenedores_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 435
+        width: 147
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a47dd85ce50a4285338cfeb9387ab
+      internalID: -1795078733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contenedores_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 435
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea033cdcdd945f41a9bd3debf213634
+      internalID: -431439395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contenedores_66
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 60
+        width: 242
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5fcc1241227934a8edd2e7274243a9
+      internalID: -1721749462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contenedores_67
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 60
+        width: 193
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329cca2543afddd4b90239f13ed38014
+      internalID: -540269889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contenedores_75
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 60
+        width: 241
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f02656e1a0e55444ac423acef837eb4
+      internalID: 1505427376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Contenedores_0: 1218196882
+      Contenedores_1: 353279749
+      Contenedores_10: 1562211962
+      Contenedores_100: 1631744150
+      Contenedores_101: 2127802342
+      Contenedores_102: 181709291
+      Contenedores_103: 1981691939
+      Contenedores_104: 1022933926
+      Contenedores_105: -1815997148
+      Contenedores_106: -1282536732
+      Contenedores_107: -1121623966
+      Contenedores_108: 1606617628
+      Contenedores_109: 1769961521
+      Contenedores_11: 904556720
+      Contenedores_110: -1318738449
+      Contenedores_111: -1899327979
+      Contenedores_112: 1590872251
+      Contenedores_113: 1849928711
+      Contenedores_114: -1428153233
+      Contenedores_115: 919988763
+      Contenedores_116: 1828815920
+      Contenedores_12: -2090636844
+      Contenedores_13: -799616584
+      Contenedores_14: 1137465841
+      Contenedores_15: 579406006
+      Contenedores_16: -999904811
+      Contenedores_17: -1795078733
+      Contenedores_18: -504924775
+      Contenedores_19: -1252282131
+      Contenedores_2: 359205539
+      Contenedores_20: -1258471117
+      Contenedores_21: -431439395
+      Contenedores_22: 1314566594
+      Contenedores_23: 269925112
+      Contenedores_24: 1721629453
+      Contenedores_25: -275411466
+      Contenedores_26: -1796676536
+      Contenedores_27: -1532673003
+      Contenedores_28: 1000155771
+      Contenedores_29: -2081053540
+      Contenedores_3: 978167523
+      Contenedores_30: 612174037
+      Contenedores_31: 559106524
+      Contenedores_32: 1508482759
+      Contenedores_33: -1221319010
+      Contenedores_34: 1544664325
+      Contenedores_35: -1162285910
+      Contenedores_36: -28270645
+      Contenedores_37: 1677237760
+      Contenedores_38: 561212212
+      Contenedores_39: 552781995
+      Contenedores_4: -2044824299
+      Contenedores_40: -2134455893
+      Contenedores_41: 1930519946
+      Contenedores_42: -1361226627
+      Contenedores_43: -1231722031
+      Contenedores_44: -595821125
+      Contenedores_45: -199932221
+      Contenedores_46: 1083079648
+      Contenedores_47: -1657037826
+      Contenedores_48: -1750453157
+      Contenedores_49: 534173336
+      Contenedores_5: 1731352227
+      Contenedores_50: -1216958107
+      Contenedores_51: -1206586465
+      Contenedores_52: -562399472
+      Contenedores_53: -994526977
+      Contenedores_54: -695914310
+      Contenedores_55: -659304408
+      Contenedores_56: -932590871
+      Contenedores_57: 572631200
+      Contenedores_58: 1931050007
+      Contenedores_59: -1135967582
+      Contenedores_6: 719070009
+      Contenedores_60: 1954554411
+      Contenedores_61: -1878530494
+      Contenedores_62: -1646739141
+      Contenedores_63: -838426531
+      Contenedores_64: -435590129
+      Contenedores_65: -1652903694
+      Contenedores_66: -1721749462
+      Contenedores_67: -540269889
+      Contenedores_68: 1431754759
+      Contenedores_69: -1271291773
+      Contenedores_7: 396785056
+      Contenedores_70: -898634871
+      Contenedores_71: -463570252
+      Contenedores_72: 730349034
+      Contenedores_73: 1926477544
+      Contenedores_74: 883181403
+      Contenedores_75: 1505427376
+      Contenedores_76: -726536729
+      Contenedores_77: 2089777933
+      Contenedores_78: -1673409750
+      Contenedores_79: -1244251877
+      Contenedores_8: 513746908
+      Contenedores_80: -309890128
+      Contenedores_81: 298323333
+      Contenedores_82: -81134475
+      Contenedores_83: -1879574219
+      Contenedores_84: -1562672986
+      Contenedores_85: -1380879289
+      Contenedores_86: 1855202254
+      Contenedores_87: 1884959495
+      Contenedores_88: 207367475
+      Contenedores_89: -599862529
+      Contenedores_9: -1514383975
+      Contenedores_90: -2051983578
+      Contenedores_91: 2141967289
+      Contenedores_92: -493050635
+      Contenedores_93: -1246019156
+      Contenedores_94: 1989185543
+      Contenedores_95: 1133198224
+      Contenedores_96: 1114018426
+      Contenedores_97: 1532978673
+      Contenedores_98: -1415049136
+      Contenedores_99: 1186574643
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
