@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerScore : MonoBehaviour
 {
     private int score;
-    public Text scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +21,7 @@ public class PlayerScore : MonoBehaviour
     {
         if(col.gameObject.tag == "Moneda"){
             score++;
-            scoreText.text = "score: " + score;
+            Debug.Log("score: " + score);
         }
     }
 }
