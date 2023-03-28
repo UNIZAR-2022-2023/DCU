@@ -15,20 +15,4 @@ public class MenuManager : MonoBehaviour
     {
       newButton.interactable = false;  
     }
-
-    public void Mapa1()
-    {
-        SceneManager.LoadScene("Mapa1");
-    }
-
-    public void Mapa2()
-    {
-        SceneManager.LoadScene("Win");
-    }
-
-    public void Mapa3()
-    {
-        SceneManager.LoadScene("Mapa1");
-    }
-
 }
