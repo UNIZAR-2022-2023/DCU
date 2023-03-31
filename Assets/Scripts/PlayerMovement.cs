@@ -52,11 +52,19 @@ public class PlayerMovement : MonoBehaviour
         Rigidbody2D.velocity = new Vector2(Horizontal * Speed, Rigidbody2D.velocity.y);
     }
     
-    private void onCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
     	if (collision.gameObject.tag == "PlataformaMovil")
     	{
     		transform.parent = collision.transform;
+    	}
+    }
+    
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+    	if (collision.gameObject.tag == "PlataformaMovil")
+    	{
+    		transform.parent = null;
     	}
     }
 }
