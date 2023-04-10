@@ -5,8 +5,6 @@ using TMPro;
 
 public class Dialogo : MonoBehaviour
 {
-	// [SerializeField] private GameObject instruccion;
-
 	[SerializeField] private GameObject panel_dialogo;
 	[SerializeField] private TMP_Text texto_dialogo;
 	[SerializeField, TextArea(4, 6)] private string[] lineas_mostrar;
@@ -31,7 +29,6 @@ public class Dialogo : MonoBehaviour
     private void EmpiezaDialogo() {
     	dialogoEmpezado = true;
     	panel_dialogo.SetActive(true);
-    	// instruccion.setActive(false);
     	
     	lineaIndex = 0;
     	Time.timeScale = 0f;
@@ -56,7 +53,6 @@ public class Dialogo : MonoBehaviour
    	    	lineaIndex = 0;
     		dialogoEmpezado = false;
 		    panel_dialogo.SetActive(false);
-   	    	// instruccion.setActive(true);
         	Time.timeScale = 1f;
     	}
     }
@@ -64,14 +60,12 @@ public class Dialogo : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
 	    if (collision.gameObject.CompareTag("Player")) {
 	    	estaCerca = true;
-	    	// instruccion.setActive(false);
 	    }
     }
     
 	private void OnTriggerExit2D(Collider2D collision) {
 		if (collision.gameObject.CompareTag("Player")) {
 	    	estaCerca = false;
-	    	// instruccion.setActive(true);
 	    }
     }
 }
