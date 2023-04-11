@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Moneda
   - PlataformaMovil
+  - Enemy
   layers:
   - Default
   - TransparentFX
