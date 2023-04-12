@@ -319,7 +319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 60892855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c3a1384e0d81dc47b427a573523a65c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &60892857
@@ -1105,11 +1105,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 297637081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2cfb4d79ab31814e897bc31ebeb99a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 00e51d7c6dade5d0cada45ea434f5e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  JumpForce: 150
+  JumpForce: 250
 --- !u!95 &297637087
 Animator:
   serializedVersion: 5

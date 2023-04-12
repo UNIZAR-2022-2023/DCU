@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class MenuMainManager : MonoBehaviour
+public class MainMenuManager : MonoBehaviour
 {
     public int Mapa;
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         switch (Mapa)
@@ -30,7 +31,7 @@ public class MenuMainManager : MonoBehaviour
 
     public void Mapa1()
     {
-        SceneManager.LoadScene("Mapa1");
+        SceneManager.LoadScene("Mapa_Vidrio");
     }
 
     public void Mapa2()
