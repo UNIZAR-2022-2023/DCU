@@ -7,11 +7,6 @@ using UnityEngine.SceneManagement;
 public class VideoController : MonoBehaviour
 {
     public VideoPlayer video;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     void Awake(){
         video = GetComponent<VideoPlayer>();
@@ -23,9 +18,4 @@ public class VideoController : MonoBehaviour
         SceneManager.LoadScene("Boss");
     }
     
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
