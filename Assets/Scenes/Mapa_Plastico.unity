@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 10241033}
   m_Layer: 0
   m_Name: Plataforma
-  m_TagString: Untagged
+  m_TagString: PlataformaMovil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,7 +181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &10241034
 Tilemap:
@@ -331,7 +331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &34956641
 Tilemap:
@@ -654,7 +654,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196916045}
-  - component: {fileID: 196916046}
   m_Layer: 0
   m_Name: Plataforma3 (4)
   m_TagString: Untagged
@@ -680,22 +679,6 @@ Transform:
   m_Father: {fileID: 911868240}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &196916046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196916044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objeto: {fileID: 1453275648}
-  puntoPartida: {fileID: 0}
-  puntoLlegada: {fileID: 0}
-  velocidad: 1
 --- !u!1 &199957954
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,7 +693,7 @@ GameObject:
   - component: {fileID: 199957956}
   m_Layer: 0
   m_Name: Plataforma
-  m_TagString: Untagged
+  m_TagString: PlataformaMovil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -754,7 +737,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &199957957
 Tilemap:
@@ -984,7 +967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241464518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.878, y: -0.888, z: 0}
+  m_LocalPosition: {x: 3.23, y: -0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1208,7 +1191,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &431819382
 Tilemap:
@@ -1557,7 +1540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510443461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.82, y: -0.63304436, z: -0.1446889}
+  m_LocalPosition: {x: -1.848, y: -0.63304436, z: -0.1446889}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1700,7 +1683,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &525058227
 Tilemap:
@@ -1819,7 +1802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535206056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.41, y: 0.6, z: -0.08527481}
+  m_LocalPosition: {x: 5.41, y: 0.9099999, z: -0.08527481}
   m_LocalScale: {x: 0.05366583, y: 0.072463065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1850,7 +1833,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &535206059
 Tilemap:
@@ -1968,7 +1951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549004110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0800009, y: -0.89199996, z: -0.1446889}
+  m_LocalPosition: {x: -1.0800009, y: -0.5820001, z: -0.1446889}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2067,7 +2050,7 @@ GameObject:
   - component: {fileID: 577119133}
   m_Layer: 0
   m_Name: Plataforma
-  m_TagString: Untagged
+  m_TagString: PlataformaMovil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2111,7 +2094,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &577119134
 Tilemap:
@@ -2261,7 +2244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650790312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.68, y: 0.06, z: -0.08527481}
+  m_LocalPosition: {x: 6.68, y: 0.3699999, z: -0.08527481}
   m_LocalScale: {x: 0.05366583, y: 0.072463065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2292,7 +2275,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &650790315
 Tilemap:
@@ -2604,7 +2587,7 @@ GameObject:
   - component: {fileID: 742996745}
   m_Layer: 0
   m_Name: PuntoPartida
-  m_TagString: PlataformaMovil
+  m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2761,8 +2744,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792745554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7155764, y: -0.7865341, z: -0.1446889}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.7155764, y: -0.9839, z: -0.1446889}
+  m_LocalScale: {x: 1, y: 0.7029, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1238222584}
@@ -2872,7 +2855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798391852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13, y: -0.89, z: -0.1446889}
+  m_LocalPosition: {x: -0.13, y: -0.5800001, z: -0.1446889}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3015,7 +2998,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &808170386
 Tilemap:
@@ -3436,8 +3419,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030459359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.37, y: -0.7845341, z: -0.1446889}
-  m_LocalScale: {x: 3.482227, y: 1, z: 1}
+  m_LocalPosition: {x: -0.37, y: -0.9825, z: -0.1446889}
+  m_LocalScale: {x: 3.482227, y: 0.7029, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1238222584}
@@ -3856,7 +3839,7 @@ GameObject:
   - component: {fileID: 1232351405}
   m_Layer: 0
   m_Name: PuntoPartida
-  m_TagString: PlataformaMovil
+  m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3966,7 +3949,7 @@ GameObject:
   - component: {fileID: 1312492964}
   m_Layer: 0
   m_Name: PuntoPartida
-  m_TagString: PlataformaMovil
+  m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4256,7 +4239,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &1453275651
 Tilemap:
@@ -4705,7 +4688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660737411}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.535, y: 1.79, z: -0.08527481}
+  m_LocalPosition: {x: 0.535, y: 2.1, z: -0.08527481}
   m_LocalScale: {x: 0.8446, y: 0.7377, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5065,7 +5048,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &1930175478
 Tilemap:
@@ -5284,7 +5267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947072353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6010008, y: -0.89, z: -0.1446889}
+  m_LocalPosition: {x: -0.6010008, y: -0.5800001, z: -0.1446889}
   m_LocalScale: {x: 5.1497, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5498,7 +5481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048028057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.05, y: 0.32, z: -0.08527481}
+  m_LocalPosition: {x: 6.05, y: 0.6299999, z: -0.08527481}
   m_LocalScale: {x: 0.05366583, y: 0.072463065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5529,7 +5512,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.16}
+  m_Size: {x: 6.38, y: 1.57}
   m_EdgeRadius: 0
 --- !u!1839735485 &2048028060
 Tilemap:
@@ -5792,8 +5775,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094656895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.030599728, y: -0.7845341, z: -0.1446889}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.030599728, y: -0.9825, z: -0.1446889}
+  m_LocalScale: {x: 1, y: 0.7029, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1238222584}
@@ -6108,7 +6091,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2147020945}
-  - component: {fileID: 2147020946}
   m_Layer: 0
   m_Name: Plataforma3 (2)
   m_TagString: Untagged
@@ -6134,19 +6116,3 @@ Transform:
   m_Father: {fileID: 911868240}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2147020946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2147020944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objeto: {fileID: 535206056}
-  puntoPartida: {fileID: 0}
-  puntoLlegada: {fileID: 0}
-  velocidad: 1
