@@ -5,6 +5,7 @@ using TMPro;
 
 public class Dialogo : MonoBehaviour
 {
+	[SerializeField] private GameObject instruccion_dialogo;
 	[SerializeField] private GameObject panel_dialogo;
 	[SerializeField] private TMP_Text texto_dialogo;
 	[SerializeField, TextArea(4, 6)] private string[] lineas_mostrar;
@@ -17,7 +18,7 @@ public class Dialogo : MonoBehaviour
     void Update()
     {
         if (estaCerca && Input.GetButtonDown("Fire1")) {
-        	
+		    instruccion_dialogo.SetActive(false);
         	if (!dialogoEmpezado) {
 	        	EmpiezaDialogo();        	
         	} else if (texto_dialogo.text == lineas_mostrar[lineaIndex]) {
@@ -56,15 +57,17 @@ public class Dialogo : MonoBehaviour
         	Time.timeScale = 1f;
     	}
     }
-        
+
     private void OnTriggerEnter2D(Collider2D collision) {
 	    if (collision.gameObject.CompareTag("Player")) {
+		    instruccion_dialogo.SetActive(true);
 	    	estaCerca = true;
 	    }
     }
     
 	private void OnTriggerExit2D(Collider2D collision) {
 		if (collision.gameObject.CompareTag("Player")) {
+		    instruccion_dialogo.SetActive(false);
 	    	estaCerca = false;
 	    }
     }
