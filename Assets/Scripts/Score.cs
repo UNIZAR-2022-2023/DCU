@@ -15,10 +15,16 @@ public class Score : MonoBehaviour
         scoreText[0].text = score.ToString();
         scoreText[1].text = score.ToString();
 
+        int lastValue = score;
+
         //Random Score values to random players
         for (int i = 0; i < randomScore.Length; i++)
         {
-            int randomNumber = UnityEngine.Random.Range(0, 25);
+            int randomNumber;
+            do{
+                randomNumber = UnityEngine.Random.Range(0, score);
+            }while(randomNumber > lastValue);
+            lastValue = randomNumber;
             randomScore[i].text = randomNumber.ToString();
         }
     }
