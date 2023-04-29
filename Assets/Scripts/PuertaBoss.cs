@@ -19,6 +19,8 @@ public class PuertaBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        SceneManager.LoadScene("Video");
+        PlayerScore player = col.GetComponent<PlayerScore>();
+        player.SaveScore();
+        SceneManager.LoadScene("Puntuaciones");
     }
 }

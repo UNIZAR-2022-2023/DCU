@@ -44,4 +44,8 @@ public class PlayerScore : MonoBehaviour
             scoreText.text = score.ToString();
         }
     }
+
+    public void SaveScore(){
+        PlayerPrefs.SetInt("Score", score);
+    }
 }
