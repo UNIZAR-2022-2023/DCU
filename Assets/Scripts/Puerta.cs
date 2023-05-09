@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PuertaBoss : MonoBehaviour
+public class Puerta : MonoBehaviour
 {
+    public string nextScene;
+    public bool dead;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,12 @@ public class PuertaBoss : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         PlayerScore player = col.GetComponent<PlayerScore>();
-        player.SaveScore();
-        SceneManager.LoadScene("Puntuaciones");
+        if (dead){
+            player.Dead();
+        }
+        else{
+            player.SaveScore();
+        }
+        SceneManager.LoadScene(nextScene);
     }
 }
