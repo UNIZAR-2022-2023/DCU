@@ -6,10 +6,13 @@ public class EnemyScript : MonoBehaviour
 {
     public GameObject Player;
     public float speed;
+    
+    Rigidbody2D rb;
+        
     // Start is called before the first frame update
     void Start()
     {
-        
+    	rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -41,5 +44,9 @@ public class EnemyScript : MonoBehaviour
             }
         }
         Debug.Log(col.gameObject.tag);
+        if (col.gameObject.tag == "Plataforma")
+        {
+            rb.velocity = Vector3.zero;
+        }
     }
 }

@@ -19,6 +19,6 @@ public class PuertaBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        SceneManager.LoadScene("Boss");
+        SceneManager.LoadScene("Mapa_Plastico");
     }
 }

@@ -27,7 +27,8 @@ public class PlayerScore : MonoBehaviour
         Rigidbody2D.velocity = new Vector2(Rigidbody2D.velocity.x, 4f);
         health--;
         if( health == 0){
-            SceneManager.LoadScene("Mapa1");
+        	string currentScene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentScene);
         }
         vidas[health].SetActive(false);
     }
