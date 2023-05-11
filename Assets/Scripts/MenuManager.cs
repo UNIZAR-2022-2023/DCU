@@ -6,9 +6,12 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+	public string next_scene;
+
     public void Buena()
     {
-        SceneManager.LoadScene("Win");
+    	
+        SceneManager.LoadScene(next_scene);
     }
 
     public void Mala(Button newButton)
@@ -16,3 +19,4 @@ public class MenuManager : MonoBehaviour
       newButton.interactable = false;  
     }
 }
+

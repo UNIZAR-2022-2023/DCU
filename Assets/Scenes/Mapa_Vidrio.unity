@@ -567,6 +567,7 @@ GameObject:
   - component: {fileID: 241464519}
   - component: {fileID: 241464526}
   - component: {fileID: 241464527}
+  - component: {fileID: 241464528}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -707,11 +708,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 241464518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e51d7c6dade5d0cada45ea434f5e9f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2cfb4d79ab31814e897bc31ebeb99a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  JumpForce: 170
+  JumpForce: 150
 --- !u!114 &241464527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,6 +730,18 @@ MonoBehaviour:
   - {fileID: 1644770632}
   - {fileID: 753745634}
   - {fileID: 883715015}
+--- !u!114 &241464528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241464518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7565e43b078411b479c6c67759910e2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &245404564
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +904,7 @@ GameObject:
   - component: {fileID: 341496252}
   - component: {fileID: 341496251}
   - component: {fileID: 341496250}
+  - component: {fileID: 341496254}
   m_Layer: 0
   m_Name: plataforma_muerte
   m_TagString: PlataformaMuerte
@@ -1029,6 +1043,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &341496254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341496249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 
+  dead: 1
 --- !u!1 &353891420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6137,9 +6165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1312635299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3a1384e0d81dc47b427a573523a65c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: Boss_Vidrio
+  dead: 0
 --- !u!61 &1312635301
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 686
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 3210
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 3211
+  controlID: 19
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3156
+  controlID: 20
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,18 +322,18 @@ MonoBehaviour:
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scenes
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 16
   m_LastProjectPath: /home/javi/Universidad/agno2022-2023/segundoCuatri/DCU/TP_videojuego
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94630000
-    m_LastClickedID: 25492
-    m_ExpandedIDs: 000000001661000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 33}
+    m_SelectedIDs: 2e5f0000
+    m_LastClickedID: 24366
+    m_ExpandedIDs: 00000000245f0000325f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000016610000
+    m_ExpandedIDs: 00000000245f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,23 +389,23 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300001464000000000000626d0000e262000052600000da630000e062000070670000ee7300000c8b00000e7a00009c6d0000ec630000ee630000c88b000014600000f88c0000
+    m_ExpandedInstanceIDs: c62300001464000000000000626d0000e262000052600000da630000e062000070670000ee7300000c8b00000e7a00009c6d0000ec630000ee630000c88b000014600000f88c00004c8c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Boss_Vidrio_3
+      m_OriginalName: Boss_Vidrio_3
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 36180
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -414,9 +414,9 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+  m_DirectoriesAreaWidth: 142
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -450,21 +450,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d8d1ffff9cddffffc2e4ffff00e5ffff3ee5ffff24e6ffff36e7ffff82f9ffff2cfbffff46ab000082ce0000acce000066d50000
+      m_ExpandedIDs: 48c7ffff9ac7ffffd4c7ffff26c8ffff78c8ffff80c8ffffd2c8ffff0cc9ffff4ac9ffff84c9ffffdec9ffff1ccaffff48cbffff9acbffffaeccffff02cdffff2eceffff36ceffff60cfffffb0cfffffeacfffff3ad0ffff50d1ffffacd1ffffb6d3ffff72d6ffff0cdbffffd0ddffff3ae0ffff6ae4fffff4e4ffff5ee5ffff2ce8ffffbaeaffffcaebffff04f2ffff82f2ffffd2f2ffff24f3ffff2cfbffffb85d0000e05d0000ea5d0000fe5d0000145e0000fa7f00000e800000248000004e8200006282000054830000688300007e8300002c840000548400005e84000088840000b8850000e0850000ea850000bc860000e4860000ee860000c0870000e8870000f2870000068800004a890000728900007c89000090890000528a00007a8a0000848a0000988a00005e8b0000868b0000908b0000a48b0000ba8b00006a8c0000928c00009c8c0000b08c0000728d00009a8d0000a48d0000b88d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: EventSystem
-        m_OriginalName: EventSystem
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 52892
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -754,9 +754,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2077538, y: 4.3030047, z: -0.8230333}
+    m_Target: {x: 0.98129326, y: 4.332407, z: -1.7629666}
     speed: 2
-    m_Value: {x: 1.2077538, y: 4.3030047, z: -0.8230333}
+    m_Value: {x: 0.98129326, y: 4.332407, z: -1.7629666}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -807,9 +807,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.5248442
+    m_Target: 1.7179818
     speed: 2
-    m_Value: 1.5263505
+    m_Value: 1.7179818
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -58,13 +57,6 @@ public class PlayerMovement : MonoBehaviour
     	if (collision.gameObject.tag == "PlataformaMovil")
     	{
     		transform.parent = collision.transform;
-    	}
-
-    	if (collision.gameObject.tag == "PlataformaMuerte")
-    	{
-			    Debug.Log("He caido");
-			    string currentScene = SceneManager.GetActiveScene().name;
-	            SceneManager.LoadScene(currentScene);
     	}
     }
     

@@ -14,13 +14,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mapa_Vidrio.unity
     guid: 4c628a57c25633cd483c9bab6005c19a
-  - enabled: 1
-    path: Assets/Scenes/Boss_Vidrio.unity
-    guid: 6d973fc39adae804482ed75700e4d8ad
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Mapa_Carton.unity
     guid: 9ae113386f70039398be52126dfcf135
   - enabled: 1
     path: Assets/Scenes/Mapa_Plastico.unity
     guid: 921c6ade5077c2d11a3b17acb5d7d322
+  - enabled: 1
+    path: Assets/Scenes/Boss_Plastico_1.unity
+    guid: 7dbc2a5bc479b012ab63fee00d4b3ef1
+  - enabled: 1
+    path: Assets/Scenes/Boss_Plastico_2.unity
+    guid: e0506ef5e76ebbfbdb7cdfbda309fb34
+  - enabled: 1
+    path: Assets/Scenes/Boss_Plastico_3.unity
+    guid: b32cda0678bd2732fb9e94209663b308
+  - enabled: 1
+    path: Assets/Scenes/Boss_Vidrio_2.unity
+    guid: bd4de83fa00fb0d799c250323557397e
+  - enabled: 1
+    path: Assets/Scenes/Boss_Vidrio_3.unity
+    guid: bf00d4db8ccb69fc99356eb372c6cc03
+  - enabled: 1
+    path: Assets/Scenes/Boss_Carton_1.unity
+    guid: cedb1a8d09c8cec6cb5dc76518cc32d1
+  - enabled: 1
+    path: Assets/Scenes/Boss_Carton_3.unity
+    guid: e1339da75aeadecfe86d85a7ce6e47af
+  - enabled: 1
+    path: Assets/Scenes/Boss_Carton_2.unity
+    guid: 050a28f7eb716066c81ef82824e99001
+  - enabled: 1
+    path: Assets/Scenes/Boss_Vidrio_1.unity
+    guid: 3f4689eccaaf4249cb1212fbe118a446
   m_configObjects: {}
