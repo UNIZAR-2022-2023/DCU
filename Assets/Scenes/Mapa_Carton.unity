@@ -135,13 +135,14 @@ GameObject:
   - component: {fileID: 78939751}
   - component: {fileID: 78939750}
   - component: {fileID: 78939749}
+  - component: {fileID: 78939753}
   m_Layer: 0
   m_Name: plataforma_muerte
   m_TagString: PlataformaMuerte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &78939749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -273,6 +274,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &78939753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78939748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 
+  dead: 1
 --- !u!1 &87536350
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89181139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.433, y: -1.356, z: 0.026682012}
+  m_LocalPosition: {x: 0.433, y: -1.36, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -628,7 +643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138072087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.58, y: -1.06, z: 0.026682012}
+  m_LocalPosition: {x: 7.58, y: -1.362, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -959,7 +974,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 574355005, guid: 8b6e4ac5a7d63533f817d500a09cafe2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1090,7 +1105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1680873767, guid: 624832265b4a26b418ffb20bf314ac0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1126,11 +1141,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 241464518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e51d7c6dade5d0cada45ea434f5e9f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2cfb4d79ab31814e897bc31ebeb99a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  JumpForce: 170
+  JumpForce: 180
 --- !u!114 &241464527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,7 +1222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356575493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.37, y: -1.08, z: 0.026682012}
+  m_LocalPosition: {x: 8.37, y: -1.359, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1304,7 +1319,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1469822759, guid: 3066d872a033ebb4c86bc91c18504458, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1418,7 +1433,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1160049625, guid: 7697c504291a280a5ae77ea7fc0308b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2022,7 +2037,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2060465424, guid: 8b6e4ac5a7d63533f817d500a09cafe2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2136,7 +2151,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 628093684, guid: fc5a3911596e44d47866d3b0ec865411, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2436,7 +2451,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1086142751, guid: 8b6e4ac5a7d63533f817d500a09cafe2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2714,7 +2729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &757598937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2724,15 +2739,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 757598936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 1955980100}
   panel_dialogo: {fileID: 1333046796}
   texto_dialogo: {fileID: 1325332465}
   lineas_mostrar:
-  - Hola soy el pez
-  - Necesito tu ayuda!
+  - "Recuerda que t\xFA tambi\xE9n puedes ayudar a reciclar cart\xF3n y papel en
+    casa."
+  - "P\xEDdele a tus profes que utilicen papel reciclado en clase."
+  - "As\xED estaremos cuidando nuestro planeta y conservando nuestros recursos naturales."
+  - "\xA1Reciclar es una tarea que todos podemos hacer juntos!"
 --- !u!61 &757598938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2799,7 +2817,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1874621756, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3555,7 +3573,6 @@ GameObject:
   - component: {fileID: 937342173}
   - component: {fileID: 937342172}
   - component: {fileID: 937342171}
-  - component: {fileID: 937342175}
   m_Layer: 0
   m_Name: Enemy (6)
   m_TagString: Enemy
@@ -3571,7 +3588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937342169}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -0.93, z: 0.026682012}
+  m_LocalPosition: {x: -3.753, y: -1.36, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3668,7 +3685,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1469822759, guid: 3066d872a033ebb4c86bc91c18504458, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3680,27 +3697,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &937342175
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937342169}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
 --- !u!1 &1003622689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,7 +3906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051317429}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.91, y: -0.37, z: 0.026682012}
+  m_LocalPosition: {x: 3.91, y: -1.363, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4083,9 +4079,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1079110681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3a1384e0d81dc47b427a573523a65c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: Boss_Carton_1
+  dead: 0
 --- !u!61 &1079110683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4152,7 +4150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 445807791, guid: 052e830476f615a4a8276c91ddbac77e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4172,7 +4170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079110681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.91, y: -1.17, z: 0}
+  m_LocalPosition: {x: 6.91, y: -1.189, z: 0}
   m_LocalScale: {x: 0.050679695, y: 0.045246303, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4718,7 +4716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269051918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.691, y: -1.355, z: 0.026682012}
+  m_LocalPosition: {x: -0.691, y: -1.36, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5480,7 +5478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425520743}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.61, y: -0.71, z: 0.026682012}
+  m_LocalPosition: {x: 4.61, y: -1.36, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5617,7 +5615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467674376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2, y: -0.7, z: 0.026682012}
+  m_LocalPosition: {x: 3.2, y: -1.361, z: 0.026682012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6086,15 +6084,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1601723713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 1924890904}
   panel_dialogo: {fileID: 1333046796}
   texto_dialogo: {fileID: 1325332465}
   lineas_mostrar:
-  - Hola soy el buitre
-  - Necesito tu ayuda!
+  - "El cart\xF3n y el papel son materiales que se pueden reciclar f\xE1cilmente."
+  - "Cuando los tiramos a la basura, terminan en un vertedero y pueden tardar muchos
+    a\xF1os en descomponerse."
+  - "Adem\xE1s, al producir nuevos cartones y papeles se necesita cortar m\xE1s \xE1rboles
+    y esto afecta a la naturaleza."
 --- !u!61 &1601723715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6161,7 +6162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1847443528, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7194,7 +7195,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -20
   m_Sprite: {fileID: 21300000, guid: b08eca08547f9c4bb970220076c1a607, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7396,7 +7397,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &1940684304
 RectTransform:
@@ -7440,7 +7441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1955980101
 Transform:
   m_ObjectHideFlags: 0
@@ -7876,7 +7877,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1086142751, guid: 8b6e4ac5a7d63533f817d500a09cafe2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

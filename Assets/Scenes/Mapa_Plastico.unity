@@ -1236,7 +1236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1363724695, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1276,7 +1276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352862803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.154, y: -1.609, z: -0.00021377741}
+  m_LocalPosition: {x: -1.154, y: -1.614, z: -0.00021377741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2660,7 +2660,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: c83766536c49dfc83bcfa0eb2d689311, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3175,15 +3175,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 732947211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instruccion_dialogo: {fileID: 0}
+  instruccion_dialogo: {fileID: 560627822}
   panel_dialogo: {fileID: 1986274447}
   texto_dialogo: {fileID: 736684106}
   lineas_mostrar:
-  - Hola soy el panda
-  - Necesito tu ayuda!
+  - "Recuerda que todos podemos ayudar a proteger a los animales y al medio ambiente
+    con peque\xF1as acciones, como cortar los envases de las latas. \xA1Vamos a cuidar
+    juntos nuestro planeta!"
 --- !u!61 &732947214
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3250,7 +3251,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 342032080, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3662,13 +3663,14 @@ GameObject:
   - component: {fileID: 795315784}
   - component: {fileID: 795315783}
   - component: {fileID: 795315782}
+  - component: {fileID: 795315785}
   m_Layer: 0
   m_Name: plataforma_muerte
   m_TagString: PlataformaMuerte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &795315781
 Transform:
   m_ObjectHideFlags: 0
@@ -3800,6 +3802,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &795315785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795315780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 
+  dead: 1
 --- !u!1 &798391852
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,7 +5035,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1045441059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 577119131}
@@ -5125,7 +5141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -541449742, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5181,7 +5197,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1150586177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 10241031}
@@ -5327,9 +5343,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1228780428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3a1384e0d81dc47b427a573523a65c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: Boss_Plastico_1
+  dead: 0
 --- !u!61 &1228780430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5396,7 +5414,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 170719644, guid: 052e830476f615a4a8276c91ddbac77e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5617,7 +5635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237222470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.035, y: -1.607, z: -0.00021377741}
+  m_LocalPosition: {x: -0.035, y: -1.612, z: -0.00021377741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6114,7 +6132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353083790}
   m_LocalRotation: {x: -0, y: -0, z: 0.055793453, w: 0.9984424}
-  m_LocalPosition: {x: -3.156, y: -1.478, z: 0.044489413}
+  m_LocalPosition: {x: -3.159, y: -1.492, z: 0.044489413}
   m_LocalScale: {x: -0.31137103, y: 0.27454, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6131,17 +6149,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1353083790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 58762777}
   panel_dialogo: {fileID: 1986274447}
   texto_dialogo: {fileID: 736684106}
   lineas_mostrar:
-  - 'Hola soy el pinguino
+  - "\xA1Hola amiguito! \xBFSab\xEDas que los animales marinos a veces quedan atrapados
+    en los envases de las latas que tiramos en el mar?"
+  - 'Esto es muy peligroso para ellos, porque pueden lastimarse o incluso morir.
 
 '
-  - Necesito tu ayuda!
+  - Es por eso que es muy importante que cortemos los envases de las latas antes
+    de tirarlas en la basura.
+  - Al cortarlos, evitamos que los animales se queden atrapados en ellos y les damos
+    la oportunidad de vivir felices en su hogar en el mar.
 --- !u!61 &1353083793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6208,7 +6231,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1323555613, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6235,6 +6258,7 @@ GameObject:
   - component: {fileID: 1358995338}
   - component: {fileID: 1358995337}
   - component: {fileID: 1358995343}
+  - component: {fileID: 1358995344}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6254,8 +6278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00e51d7c6dade5d0cada45ea434f5e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
-  JumpForce: 170
 --- !u!95 &1358995338
 Animator:
   serializedVersion: 5
@@ -6353,7 +6375,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1680873767, guid: 624832265b4a26b418ffb20bf314ac0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6397,6 +6419,20 @@ MonoBehaviour:
   - {fileID: 1677265610}
   - {fileID: 1620688803}
   - {fileID: 1943223310}
+--- !u!114 &1358995344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358995336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2cfb4d79ab31814e897bc31ebeb99a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 1
+  JumpForce: 180
 --- !u!1 &1440728613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,7 +6819,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1363724695, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6920,7 +6956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1469822759, guid: 3066d872a033ebb4c86bc91c18504458, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7031,7 +7067,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -541449742, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7256,7 +7292,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -248222620, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8006,7 +8042,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907373410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 199957954}
@@ -8534,7 +8570,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -20
   m_Sprite: {fileID: 21300000, guid: 4e371f13fd067a040aaa82d96d5bdb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9245,7 +9281,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -248222620, guid: 53bf4329e10266b7aa57bce1b58d8cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

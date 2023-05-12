@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 104659949}
   - component: {fileID: 104659952}
   - component: {fileID: 104659951}
-  - component: {fileID: 104659950}
+  - component: {fileID: 104659953}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -192,24 +192,6 @@ Transform:
   m_Father: {fileID: 384875297}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.397}
---- !u!114 &104659950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104659948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  instruccion_dialogo: {fileID: 780810944}
-  panel_dialogo: {fileID: 1333046796}
-  texto_dialogo: {fileID: 1325332465}
-  lineas_mostrar:
-  - Hola soy la tortuga
-  - Necesito tu ayuda!
 --- !u!61 &104659951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -276,7 +258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -869953969, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -288,6 +270,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &104659953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104659948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instruccion_dialogo: {fileID: 780810944}
+  panel_dialogo: {fileID: 1333046796}
+  texto_dialogo: {fileID: 1325332465}
+  lineas_mostrar:
+  - 'Hoy quiero hablarles sobre la importancia de no dejar botellas de vidrio en
+    el bosque para evitar incendios.
+
+'
+  - "Las botellas de vidrio pueden ser muy peligrosas si las dejamos en el bosque,
+    especialmente en los d\xEDas calurosos de verano."
 --- !u!1 &122988551
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +544,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9aafc06ff90911c38a023de1b00258d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -672,7 +676,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1680873767, guid: 624832265b4a26b418ffb20bf314ac0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -712,7 +716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
-  JumpForce: 150
+  JumpForce: 180
 --- !u!114 &241464527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,7 +915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &341496250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1101,7 +1105,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 353891420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 882067708}
@@ -1684,7 +1688,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 413507196, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2626,7 +2630,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 413507196, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2776,7 +2780,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2132789679, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3344,7 +3348,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 744078709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 1561910025}
@@ -3639,7 +3643,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 806956460, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3970,7 +3974,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 806956460, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4120,7 +4124,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2132789679, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5788,15 +5792,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1303938095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13acdefd4836adffab8c06dfbb70c837, type: 3}
+  m_Script: {fileID: 11500000, guid: 317528c82bb8559b0ba1786e3ff55edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 395453587}
   panel_dialogo: {fileID: 1333046796}
   texto_dialogo: {fileID: 1325332465}
   lineas_mostrar:
-  - Hola soy el delfin
-  - Necesito tu ayuda!
+  - Cuando el sol brilla fuerte, los rayos del sol pueden entrar en las botellas
+    y concentrar el calor.
+  - Esto puede hacer que la hierba, las hojas secas y las ramitas cercanas se prendan
+    fuego, lo que puede provocar un incendio forestal.
+  - Los incendios forestales son muy peligrosos y pueden destruir todo el bosque,
+    hogares y poner en peligro la vida de las personas y los animales.
+  - Por eso, es muy importante no dejar botellas de vidrio en el bosque.
 --- !u!61 &1303938098
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5863,7 +5872,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 432864960, guid: da7f53122773e952b948db29489efb26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6168,7 +6177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5974461f66349d341ba2f9eebbf98bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Boss_Vidrio
+  nextScene: Boss_Vidrio_1
   dead: 0
 --- !u!61 &1312635301
 BoxCollider2D:
@@ -6236,7 +6245,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -1950496332, guid: 052e830476f615a4a8276c91ddbac77e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7354,7 +7363,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2132789679, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7410,7 +7419,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1685483048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bccc4ccc8a1e218e2b17a1c5d82f47d4, type: 3}
+  m_Script: {fileID: 11500000, guid: d49e09580387c206088e98c00166c181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objeto: {fileID: 1197542983}
@@ -7474,7 +7483,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -20
   m_Sprite: {fileID: 21300000, guid: 9693befd80eeb2b7685259e9beee535f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7971,7 +7980,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 806956460, guid: 44933db1f6162ed49ab0f330a1bb1fc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
