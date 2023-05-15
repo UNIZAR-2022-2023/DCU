@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119f13d546bf58c468946aa6d9c40d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  next_scene: Mapa_Plastico
+  next_scene: video_carton
 --- !u!4 &590016510
 Transform:
   m_ObjectHideFlags: 0
