@@ -53,4 +53,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puntuaciones.unity
     guid: e1d42d62f882b4c4983f0035ec76e25a
+  - enabled: 1
+    path: Assets/Scenes/Video.unity
+    guid: 7e22499c11cce4f418d0b8b0bffd8a99
+  - enabled: 1
+    path: Assets/Scenes/video_carton.unity
+    guid: cc7c2ab3c45462b4f9051d1302bca1c6
+  - enabled: 1
+    path: Assets/Scenes/video_inicio.unity
+    guid: 1cd343c43cf07134f9abbeafa220ec5d
+  - enabled: 1
+    path: Assets/Scenes/video_plastico.unity
+    guid: 52c4e05520c605e4bb43bf4876eda097
+  - enabled: 1
+    path: Assets/Scenes/video_vidrio.unity
+    guid: dcb3b90ec2f33d947ada88140fc1c722
   m_configObjects: {}

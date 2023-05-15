@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 54540654510c50585c5f0f2115775944474f1c7a2e7024602f2f1b37bae16d61
-      flags: 0
-    RecentlyUsedSceneGuid-1:
       value: 0157045601010d59550d0f20467a59134f4e4b7f7a2d24637a7b1e65e1e3646b
       flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5252505551060a0f5e0d0a7247720c44104e19282e2d27362c7b4f63e7e3613c
-      flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 010206050154590d5a560e2642740c421015412f757c7460747f4b60e0b36460
       flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 060007555c51080c580f092314265c16134f4e2e747d27672e2c4b36b6b7353e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 0600505257515f090b56547012775c444f4f4b2c7c787565282a4a65e7b26139
+      flags: 0
     RecentlyUsedSceneGuid-4:
-      value: 5603575200055c0e5f5e0f7440765a4414154c792e2e72687a7f1837e3b06d6f
+      value: 0052030557540b080e5a597646715d44104e487f7d2c77637d7b1f30e3b1376e
       flags: 0
     RecentlyUsedSceneGuid-5:
-      value: 060007555c51080c580f092314265c16134f4e2e747d27672e2c4b36b6b7353e
+      value: 5603575200055c0e5f5e0f7440765a4414154c792e2e72687a7f1837e3b06d6f
       flags: 0
     RecentlyUsedSceneGuid-6:
       value: 07525655070c595e0e5c0a714327064441161c2b747077647d2f1e62e1b7666a
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 0052030557540b080e5a597646715d44104e487f7d2c77637d7b1f30e3b1376e
+      value: 54540654510c50585c5f0f2115775944474f1c7a2e7024602f2f1b37bae16d61
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 0600505257515f090b56547012775c444f4f4b2c7c787565282a4a65e7b26139
+      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
+      value: 5252505551060a0f5e0d0a7247720c44104e19282e2d27362c7b4f63e7e3613c
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
