@@ -3179,8 +3179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 560627822}
-  panel_dialogo: {fileID: 1986274447}
-  texto_dialogo: {fileID: 736684106}
+  panel_dialogo: {fileID: 0}
+  texto_dialogo: {fileID: 0}
   lineas_mostrar:
   - "Recuerda que todos podemos ayudar a proteger a los animales y al medio ambiente
     con peque\xF1as acciones, como cortar los envases de las latas. \xA1Vamos a cuidar
@@ -6153,8 +6153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 58762777}
-  panel_dialogo: {fileID: 1986274447}
-  texto_dialogo: {fileID: 736684106}
+  panel_dialogo: {fileID: 0}
+  texto_dialogo: {fileID: 0}
   lineas_mostrar:
   - "\xA1Hola amiguito! \xBFSab\xEDas que los animales marinos a veces quedan atrapados
     en los envases de las latas que tiramos en el mar?"
@@ -6414,11 +6414,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51d26f754c4f7746a11730c6210af58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1233181891}
+  scoreText: {fileID: 0}
   vidas:
-  - {fileID: 1677265610}
-  - {fileID: 1620688803}
-  - {fileID: 1943223310}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1358995344
 MonoBehaviour:
   m_ObjectHideFlags: 0
