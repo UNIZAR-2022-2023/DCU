@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 263729356}
   - component: {fileID: 263729355}
   - component: {fileID: 263729354}
-  - component: {fileID: 263729357}
   m_Layer: 0
   m_Name: Main Camera (3)
   m_TagString: MainCamera
@@ -208,20 +207,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &263729357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263729353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e2237d1d9c9fae41a803c26251a6367, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  video: {fileID: 1168813459}
-  next_scene: Mapa_Vidrio
 --- !u!1 &1168813458
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +218,7 @@ GameObject:
   - component: {fileID: 1168813461}
   - component: {fileID: 1168813460}
   - component: {fileID: 1168813459}
+  - component: {fileID: 1168813462}
   m_Layer: 0
   m_Name: background_color
   m_TagString: Untagged
@@ -340,3 +326,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1168813462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168813458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2237d1d9c9fae41a803c26251a6367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  video: {fileID: 1168813459}
+  next_scene: Mapa_Vidrio
