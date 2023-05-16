@@ -3179,8 +3179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 560627822}
-  panel_dialogo: {fileID: 0}
-  texto_dialogo: {fileID: 0}
+  panel_dialogo: {fileID: 1986274447}
+  texto_dialogo: {fileID: 736684106}
   lineas_mostrar:
   - "Recuerda que todos podemos ayudar a proteger a los animales y al medio ambiente
     con peque\xF1as acciones, como cortar los envases de las latas. \xA1Vamos a cuidar
@@ -5596,7 +5596,7 @@ RectTransform:
   m_GameObject: {fileID: 1233181890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.36419785, y: 0.36419785, z: 0.36419785}
+  m_LocalScale: {x: 0.4543368, y: 0.4543368, z: 0.4543368}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1940684304}
@@ -5604,7 +5604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 289.06564, y: 178.3906}
+  m_AnchoredPosition: {x: 391.8, y: 237.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1237222470
@@ -6153,8 +6153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instruccion_dialogo: {fileID: 58762777}
-  panel_dialogo: {fileID: 0}
-  texto_dialogo: {fileID: 0}
+  panel_dialogo: {fileID: 1986274447}
+  texto_dialogo: {fileID: 736684106}
   lineas_mostrar:
   - "\xA1Hola amiguito! \xBFSab\xEDas que los animales marinos a veces quedan atrapados
     en los envases de las latas que tiramos en el mar?"
@@ -6256,7 +6256,6 @@ GameObject:
   - component: {fileID: 1358995340}
   - component: {fileID: 1358995339}
   - component: {fileID: 1358995338}
-  - component: {fileID: 1358995337}
   - component: {fileID: 1358995343}
   - component: {fileID: 1358995344}
   m_Layer: 0
@@ -6266,18 +6265,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1358995337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358995336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00e51d7c6dade5d0cada45ea434f5e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1358995338
 Animator:
   serializedVersion: 5
@@ -6414,11 +6401,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51d26f754c4f7746a11730c6210af58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1233181891}
   vidas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1677265610}
+  - {fileID: 1620688803}
+  - {fileID: 1943223310}
 --- !u!114 &1358995344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7329,8 +7316,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620688803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -299.25937, y: 151.44998, z: 98.162605}
-  m_LocalScale: {x: 101.93681, y: 101.93681, z: 0.0061728447}
+  m_LocalPosition: {x: -402.6, y: 203.7, z: 98.162605}
+  m_LocalScale: {x: 132.56883, y: 132.56883, z: 0.0080277845}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1940684304}
@@ -7692,8 +7679,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677265610}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -329.9053, y: 151.08592, z: 98.162605}
-  m_LocalScale: {x: 101.93681, y: 101.93681, z: 0.0061728447}
+  m_LocalPosition: {x: -443.7, y: 203.9, z: 98.162605}
+  m_LocalScale: {x: 126.25894, y: 126.25894, z: 0.0076456857}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1940684304}
@@ -8343,8 +8330,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943223310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -268.67816, y: 151.08592, z: 98.162605}
-  m_LocalScale: {x: 101.93681, y: 101.93681, z: 0.0061728447}
+  m_LocalPosition: {x: -361, y: 203.9, z: 98.162605}
+  m_LocalScale: {x: 128.97046, y: 128.97046, z: 0.007809883}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1940684304}
